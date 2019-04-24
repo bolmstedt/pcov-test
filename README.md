@@ -2,7 +2,7 @@
 
 This is a minimal case where PHPUnit will report tests as risky and alternate between:
 
-```php
+```
 1) Bolmis\PcovTest\Tests\FooTest::testDoSecondThing
 This test executed code that is not listed as code to be covered or used:
 - Bolmis\PcovTest\Foo::doFirstThing
@@ -10,7 +10,7 @@ This test executed code that is not listed as code to be covered or used:
 
 and
 
-```php
+```
 1) Bolmis\PcovTest\Tests\FooTest::testDoFirstThing
 This test executed code that is not listed as code to be covered or used:
 - Bolmis\PcovTest\Foo::doSecondThing
