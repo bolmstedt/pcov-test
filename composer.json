@@ -1,0 +1,21 @@
+{
+  "name": "bolmis/pcov-test",
+  "type": "library",
+  "description": "Test pcov issue with PHPUnit coverage driver",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.3",
+    "ext-pcov": "*",
+    "phpunit/phpunit": "^8.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bolmis\\PcovTest\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bolmis\\PcovTest\\Tests\\": "tests/"
+    }
+  }
+}
